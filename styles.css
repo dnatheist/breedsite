@@ -12,6 +12,15 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header .logo {
+    max-width: 200px;
+    height: auto;
 }
 
 header h1 {
@@ -58,6 +67,17 @@ h2 {
     color: #D61000; /* Vibrant red for headings */
     border-bottom: 2px solid #D61000;
     padding-bottom: 0.5rem;
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer-logo {
+    max-width: 120px;
+    margin-bottom: 0.5rem;
 }
 
 /* Carousel Styles */
@@ -174,6 +194,10 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 footer a {
@@ -195,5 +219,13 @@ footer a {
     .carousel-next {
         padding: 0.5rem;
         font-size: 1rem;
+    }
+
+    header .logo {
+        max-width: 150px;
+    }
+
+    .footer-logo {
+        max-width: 100px;
     }
 }
